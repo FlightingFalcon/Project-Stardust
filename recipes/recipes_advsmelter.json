@@ -1,0 +1,125 @@
+[
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmelter.goldingot",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "goldrefined"
+			},
+			{
+				"amount": 2,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.benefication",
+		"results": [
+			{
+				"amount": 25,
+				"type": "goldingot"
+			}
+		],
+		"sortWeight": 173
+	},
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmelter.bronzeingot",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "copperrefined"
+			},
+			{
+				"amount": 10,
+				"type": "tinrefined"
+			},
+			{
+				"amount": 2,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.advsmelter",
+		"results": [
+			{
+				"amount": 25,
+				"type": "bronzeingot"
+			}
+		],
+		"sortWeight": 9339
+	},
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmelter.brassingot",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "copperrefined"
+			},
+			{
+				"amount": 10,
+				"type": "zincrefined"
+			},
+			{
+				"amount": 2,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.benefication",
+		"results": [
+			{
+				"amount": 25,
+				"type": "brassingot"
+			}
+		],
+		"sortWeight": 11074
+	},
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmelter.leadingot",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "leadrefined"
+			},
+			{
+				"amount": 2,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.advsmelter",
+		"results": [
+			{
+				"amount": 25,
+				"type": "leadingot"
+			}
+		],
+		"sortWeight": 150963
+	},
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmelter.copperingot",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "copperrefined"
+			},
+			{
+				"amount": 2,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.advsmelter",
+		"results": [
+			{
+				"amount": 25,
+				"type": "copperingot"
+			}
+		],
+		"sortWeight": 150963
+	}
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "cooldown": 180.0,
+    "defaultLimit": 10,
+    "name": "loirelab.refinedironanvil.coppertools",
+    "requires": [
+      {
+        "amount": 8,
+        "type": "potwater"
+      },
+      {
+        "amount": 12,
+        "type": "cokes"
+      },
+      {
+        "amount": 3,
+        "type": "batteryempty"
+      }
+    ],
+    "requiresScience": "pipliz.anvil",
+    "results": [
+      {
+        "amount": 1,
+        "type": "coppertools"
+      }
+    ],
+    "sortWeight": 173568
+  },
+  {
+    "cooldown": 180.0,
+    "defaultLimit": 10,
+    "name": "loirelab.refinedironanvil.irontools",
+    "requires": [
+      {
+        "amount": 8,
+        "type": "potwater"
+      },
+      {
+        "amount": 12,
+        "type": "cokes"
+      },
+      {
+        "amount": 3,
+        "type": "batteryempty"
+      }
+    ],
+    "requiresScience": "pipliz.iron",
+    "results": [
+      {
+        "amount": 1,
+        "type": "irontools"
+      }
+    ],
+    "sortWeight": 291205
+  },
+  {
+    "cooldown": 180.0,
+    "defaultLimit": 10,
+    "name": "loirelab.refinedironanvil.bronzetools",
+    "requires": [
+      {
+        "amount": 8,
+        "type": "potwater"
+      },
+      {
+        "amount": 12,
+        "type": "cokes"
+      },
+      {
+        "amount": 3,
+        "type": "batteryempty"
+      }
+    ],
+    "requiresScience": "pipliz.bronze",
+    "results": [
+      {
+        "amount": 1,
+        "type": "bronzetools"
+      }
+    ],
+    "sortWeight": 579195
+  },
+  {
+    "cooldown": 180.0,
+    "defaultLimit": 10,
+    "name": "loirelab.refinedironanvil.steeltools",
+    "requires": [
+      {
+        "amount": 8,
+        "type": "potwater"
+      },
+      {
+        "amount": 12,
+        "type": "cokes"
+      },
+      {
+        "amount": 3,
+        "type": "batteryempty"
+      }
+    ],
+    "requiresScience": "pipliz.steeltools",
+    "results": [
+      {
+        "amount": 1,
+        "type": "steeltools"
+      }
+    ],
+    "sortWeight": 738298
+  }
+]

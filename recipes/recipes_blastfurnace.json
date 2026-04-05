@@ -1,0 +1,76 @@
+[
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 100,
+		"name": "pipliz.blastfurnace.steelingot",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "ironrefined"
+			},
+			{
+				"amount": 5,
+				"type": "silicasand"
+			},
+			{
+				"amount": 5,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.benefication",
+		"results": [
+			{
+				"amount": 10,
+				"type": "steelingot"
+			}
+		],
+		"sortWeight": 173
+	}, 
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 100,
+		"name": "pipliz.blastfurnace.diamond",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "charcoal"
+			},
+			{
+				"amount": 1,
+				"type": "nitro"
+			}
+		],
+		"requiresScience": "loirelab.complexrefining",
+		"results": [
+			{
+				"amount": 1,
+				"chance": 0.5,
+				"type": "diamond"
+			}
+		],
+		"sortWeight": 250
+	}, 
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 100,
+		"name": "pipliz.blastfurnace.steelbeam",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "steelingot"
+			},
+			{
+				"amount": 5,
+				"type": "cokes"
+			}
+		],
+		"requiresScience": "loirelab.advconstruction",
+		"results": [
+			{
+				"amount": 1,
+				"type": "steelbeam"
+			}
+		],
+		"sortWeight": 200
+	}
+]

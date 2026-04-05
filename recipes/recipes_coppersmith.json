@@ -1,0 +1,19 @@
+[
+	{
+		"cooldown": 360.0,
+		"defaultLimit": 0,
+		"name": "pipliz.coppersmith.goldjewellery",
+		"requires": [
+			{
+				"type": "goldingot"
+			}
+		],
+		"requiresScience": "pipliz.forbidden",
+		"results": [
+			{
+				"type": "goldjewellery"
+			}
+		],
+		"sortWeight": 4679
+	}
+]
