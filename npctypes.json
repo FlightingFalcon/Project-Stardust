@@ -15,6 +15,11 @@
 		"mesh": "./meshes/coppersmith.glb",
 		"npcType": "worker"
 	},
+		{
+		"keyName": "loirelab.chemist",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
 	{
 		"keyName": "loirelab.advsmelter",
 		"mesh": "./meshes/coppersmith.glb",
