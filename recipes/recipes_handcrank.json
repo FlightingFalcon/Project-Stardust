@@ -9,7 +9,7 @@
 					"type": "batteryempty"
 			}
 		],
-		"requiresScience": "loirelab.advfurnace",
+		"requiresScience": "loirelab.electricity",
 		"results": [
 			{
 				"amount": 1,

@@ -2,7 +2,7 @@
 	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.copperconcentrate",
+		"name": "loirelab.chemlab.copperconcentrate",
 		"requires": [
 			{
 				"amount": 30,
@@ -38,10 +38,10 @@
 		],
 		"sortWeight": 52842
 	},
-		{
+	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.tinconcentrate",
+		"name": "loirelab.chemlab.tinconcentrate",
 		"requires": [
 			{
 				"amount": 30,
@@ -77,10 +77,10 @@
 		],
 		"sortWeight": 52842
 	},
-		{
+	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.goldconcentrate",
+		"name": "loirelab.chemlab.goldconcentrate",
 		"requires": [
 			{
 				"amount": 30,
@@ -109,7 +109,7 @@
 	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.leadconcentrate",
+		"name": "loirelab.chemlab.leadconcentrate",
 		"requires": [
 			{
 				"amount": 30,
@@ -148,7 +148,7 @@
 	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.ironconcentrate",
+		"name": "loirelab.chemlab.ironconcentrate",
 		"requires": [
 			{
 				"amount": 30,
@@ -193,7 +193,7 @@
 	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.ilmenite",
+		"name": "loirelab.chemlab.ilmenite",
 		"requires": [
 			{
 				"amount": 30,
@@ -228,7 +228,7 @@
 	{
 		"cooldown": 60.0,
 		"defaultLimit": 10,
-		"name": "loirelab.beneficiationtank.zincconcentrate",
+		"name": "loirelab.chemlab.zincconcentrate",
 		"requires": [
 			{
 				"amount": 30,

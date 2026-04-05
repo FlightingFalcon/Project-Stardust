@@ -29,18 +29,19 @@
 				"type": "batterycasing"
 			},
 			{
-				"type": "goldrefined"
+				"amount": 3,
+				"type": "vialmineraloil"
 			},
 			{
 				"amount": 2,
-				"type": "copperrefined"
+				"type": "copperwire"
 			},
 			{
 				"amount": 5,
 				"type": "brassparts"
 			}
 		],
-		"requiresScience": "pipliz.advminer",
+		"requiresScience": "loirelab.electricity",
 		"results": [
 			{
 				"type": "batteryempty"

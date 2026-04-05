@@ -98,7 +98,7 @@
 				"type": "steelparts"
 			}
 		],
-		"requiresScience": "loirelab.advminer",
+		"requiresScience": "loirelab.electricity",
 		"results": [
 			{
 				"type": "batterycasing"
