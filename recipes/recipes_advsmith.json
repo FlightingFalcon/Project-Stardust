@@ -1,0 +1,238 @@
+[
+	{
+		"cooldown": 60.0,
+		"defaultLimit": 10,
+		"name": "loirelab.advsmith.steeltools",
+		"requires": [
+			{
+				"amount": 5,
+				"type": "steelingot"
+			},
+			{
+				"amount": 5,
+				"type": "steelparts"
+			},
+			{
+				"amount": 5,
+				"type": "leather"
+			},
+			{
+				"type": "vialmineraloil"
+			}
+		],
+		"requiresScience": "pipliz.steeltools",
+		"results": [
+			{
+				"amount": 5,
+				"type": "steeltools"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 639327
+	},
+	{
+		"cooldown": 70.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.machinetools",
+		"requires": [
+			{
+				"amount": 5,
+				"type": "steelparts"
+			},
+			{
+				"amount": 5,
+				"type": "brassparts"
+			},
+			{
+				"type": "vialmineraloil"
+			}
+		],
+		"requiresScience": "pipliz.printingpress",
+		"results": [
+			{
+				"amount": 5,
+				"type": "machinetools"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256640
+	},
+	{
+		"cooldown": 90.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.sophisticatedmachinery",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "complexmachine"
+			},
+			{
+				"amount": 5,
+				"type": "goldingot"
+			},
+			{
+				"amount": 3,
+				"type": "zincrefined"
+			},
+			{
+				"type": "vialnitricacid"
+			}
+		],
+		"requiresScience": "loirelab.advsmith",
+		"results": [
+			{
+				"amount": 1,
+				"type": "sophisticatedmachinery"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256650
+	},
+	{
+		"cooldown": 120.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.precisionmachinery",
+		"requires": [
+			{
+				"amount": 20,
+				"type": "complexmachine"
+			},
+			{
+				"amount": 10,
+				"type": "steelbeam"
+			},
+			{
+				"amount": 3,
+				"type": "diamond"
+			},
+			{
+				"amount": 3,
+				"type": "titan"
+			},
+			{
+				"type": "vialsulphuricacid"
+			}
+		],
+		"requiresScience": "loirelab.diamondcoating",
+		"results": [
+			{
+				"amount": 1,
+				"type": "precisionmachinery"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256662
+	},
+	{
+		"cooldown": 90.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.titanlockbox",
+		"requires": [
+			{
+				"amount": 10,
+				"type": "complexmachine"
+			},
+			{
+				"amount": 10,
+				"type": "steelbeam"
+			},
+			{
+				"amount": 20,
+				"type": "titan"
+			}
+		],
+		"requiresScience": "loirelab.titancoating",
+		"results": [
+			{
+				"amount": 1,
+				"type": "titanlockbox"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256680
+	},
+		{
+		"cooldown": 90.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.titandrill",
+		"requires": [
+			{
+				"type": "steeldrill"
+			},
+			{
+				"amount": 10,
+				"type": "titan"
+			},
+			{
+				"type": "vialsulphuricacid"
+			}
+		],
+		"requiresScience": "loirelab.titancoating",
+		"results": [
+			{
+				"type": "titandrill"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256680
+	},
+		{
+		"cooldown": 120.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "loirelab.advsmith.diamonddrill",
+		"requires": [
+			{
+				"type": "titandrill"
+			},
+			{
+				"amount": 10,
+				"type": "diamond"
+			},
+			{
+				"type": "vialnitricacid"
+			}
+		],
+		"requiresScience": "loirelab.diamondcoating",
+		"results": [
+			{
+				"type": "diamonddrill"
+			},
+			{
+				"chance": 0.95,
+				"isOptional": true,
+				"type": "vialempty"
+			}
+		],
+		"sortWeight": 256700
+	}
+]

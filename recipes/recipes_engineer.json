@@ -1,0 +1,51 @@
+[
+	{
+		"cooldown": 120.0,
+		"defaultLimit": 15,
+		"defaultPriority": 0,
+		"name": "pipliz.engineer.eyeglasses",
+		"requires": [
+			{
+				"type": "glasspiece"
+			},
+			{
+				"type": "ironwrought"
+			}
+		],
+		"requiresScience": "pipliz.glassblower",
+		"results": [
+			{
+				"type": "ingrglasses"
+			}
+		],
+		"sortWeight": 111143
+	},
+	{
+		"cooldown": 480.0,
+		"defaultLimit": 10,
+		"name": "pipliz.engineer.batteryempty",
+		"requires": [
+			{
+				"type": "batterycasing"
+			},
+			{
+				"type": "goldrefined"
+			},
+			{
+				"amount": 2,
+				"type": "copperrefined"
+			},
+			{
+				"amount": 5,
+				"type": "brassparts"
+			}
+		],
+		"requiresScience": "pipliz.advminer",
+		"results": [
+			{
+				"type": "batteryempty"
+			}
+		],
+		"sortWeight": 927243
+	}
+]

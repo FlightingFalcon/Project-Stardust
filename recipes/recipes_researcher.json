@@ -1,0 +1,27 @@
+[
+	{
+		"cooldown": 85.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "pipliz.researcher.industrialkit",
+		"requires": [
+			{
+				"amount": 3,
+				"type": "carddata"
+			},
+			{
+				"type": "statisticsboard"
+			},
+			{
+				"type": "eyeglasses"
+			}
+		],
+		"requiresScience": "pipliz.researcher",
+		"results": [
+			{
+				"type": "industrialkit"
+			}
+		],
+		"sortWeight": 85348
+	}
+]

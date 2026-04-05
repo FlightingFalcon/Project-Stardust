@@ -1,0 +1,128 @@
+[
+	{
+		"cooldown": 90.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "pipliz.metallathe.steeldrill",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "complexmachine"
+			},
+			{
+				"amount": 10,
+				"type": "steelingot"
+			},
+			{
+				"amount": 5,
+				"type": "brassingot"
+			},
+			{
+				"amount": 5,
+				"type": "bronzeingot"
+			},
+			{
+				"amount": 5,
+				"type": "metalgear"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"type": "steeldrill"
+			}
+		],
+		"sortWeight": 256662
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 25,
+		"name": "pipliz.metallathe.metalgear",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "steelingot"
+			}
+		],
+		"requiresScience": "pipliz.lathe",
+		"results": [
+			{
+				"amount": 2,
+				"type": "metalgear"
+			}
+		],
+		"sortWeight": 720372
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 25,
+		"name": "pipliz.metallathe.complexmachine",
+		"requires": [
+			{
+				"amount": 5,
+				"type": "steelparts"
+			},
+			{
+				"amount": 10,
+				"type": "brassparts"
+			},
+			{
+				"amount": 15,
+				"type": "goldingot"
+			}
+		],
+		"requiresScience": "loirelab.advsmith",
+		"results": [
+			{
+				"amount": 3,
+				"type": "complexmachine"
+			}
+		],
+		"sortWeight": 720399
+	},
+	{
+		"cooldown": 300.0,
+		"defaultLimit": 15,
+		"name": "pipliz.metallathe.batterycasing",
+		"requires": [
+			{
+				"amount": 7,
+				"type": "steelingot"
+			},
+			{
+				"amount": 3,
+				"type": "brassingot"
+			},
+			{
+				"amount": 6,
+				"type": "steelparts"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"type": "batterycasing"
+			}
+		],
+		"sortWeight": 793591
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 35,
+		"name": "pipliz.metallathe.copperwire",
+		"requires": [
+			{
+				"amount": 2,
+				"type": "copperingot"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"amount":  4,
+				"type": "copperwire"
+			}
+		],
+		"sortWeight": 780294
+	}
+]
