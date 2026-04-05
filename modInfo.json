@@ -1,0 +1,199 @@
+[
+	{
+		"compatibleversions" : [
+			"0.9.0", "0.10.0"
+		],
+		"enabled" : true,
+		"description": "Be the metal",
+		"jsonFiles": [
+			{
+				"relativePath": "./recipes/recipes_handcrank.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"handcrank"
+				],
+				"npcType": "loirelab.handcranker"
+			},
+			{
+				"relativePath": "./recipes/recipes_arcfurnace.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"arcfurnace"
+				],
+				"npcType": "loirelab.arcfurnace"
+			},
+			{
+				"relativePath": "./recipes/recipes_boiler.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"boiler"
+				],
+				"npcType": "loirelab.boileroperator"
+			},
+			{
+				"relativePath": "./recipes/recipes_advsmelter.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"advsmelter"
+				],
+				"npcType": "loirelab.advsmelter"
+			},
+			{
+				"relativePath": "./recipes/recipes_advsmith.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"advsmith"
+				],
+				"npcType": "loirelab.advsmith"
+			},
+			{
+				"relativePath": "./recipes/recipes_coppersmith.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"anvil"
+				],
+				"npcType": "pipliz.coppersmith"
+			},
+			{
+				"relativePath": "./recipes/recipes_beneficiationtank.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"beneficiationtank"
+				],
+				"npcType": "loirelab.beneficiationoperator"
+			},
+			{
+				"relativePath": "./recipes/recipes_blastfurnace.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"blastfurnace"
+				],
+				"npcType": "pipliz.blastfurnace"
+			},
+			{
+				"relativePath": "./recipes/recipes_bloomeryjob.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"bloomery"
+				],
+				"npcType": "pipliz.bloomeryjob"
+			},
+			{
+				"relativePath": "./recipes/recipes_glassblower.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"glassblower"
+				],
+				"npcType": "pipliz.glassblower"
+			},
+			{
+				"relativePath": "./recipes/recipes_jobblockcrafteradvanced.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"jobblockcrafteradvanced"
+				],
+				"npcType": "pipliz.jobblockcrafteradvanced"
+			},
+			{
+				"relativePath": "./recipes/recipes_kilnjob.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"kiln"
+				],
+				"npcType": "pipliz.kilnjob"
+			},
+			{
+				"relativePath": "./recipes/recipes_glassblower.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"glassblower"
+				],
+				"npcType": "pipliz.glassblower"
+			},
+			{
+				"relativePath": "./recipes/recipes_sawmill.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"sawmill"
+				],
+				"npcType": "loirelab.sawmill"
+			},
+			{
+				"relativePath": "./recipes/recipes_researcher.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"researcherdesk"
+				],
+				"npcType": "pipliz.researcher"
+			},
+			{
+				"relativePath": "./recipes/recipes_metallathe.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"metallathe"
+				],
+				"npcType": "pipliz.metallathe"
+			},
+			{
+				"relativePath": "./recipes/recipes_scribe.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"scribedesk"
+				],
+				"npcType": "pipliz.scribe"
+			},
+			{
+				"relativePath": "./recipes/recipes_chestmaker.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"npcType": "pipliz.chestmaker"
+			},
+			{
+				"relativePath": "./recipes/recipes_engineer.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"engineerbench"
+				],
+				"npcType": "pipliz.engineer"
+			},
+			{
+				"fileType": "generateBlocks",
+				"relativePath": "generateblocks.json"
+			},
+			{
+				"relativePath": "npctypes.json",
+				"fileType": "addOrReplaceNPCTypes"
+			},
+			{
+				"fileType": "setToolsets",
+				"relativePath": "toolsets.json"
+			},
+			{
+				"fileType": "addNewTypes",
+				"relativePath": "types.json"
+			},
+			{
+				"fileType": "overrideTypeProperties",
+				"relativePath": "override_types.json"
+			},
+			{
+				"fileType": "addOrOverrideTextureMappingEntries",
+				"relativePath": "texturemapping.json"
+			},
+			{
+				"fileType": "addOrOverrideScience",
+				"relativePath": "science.json"
+			},
+			{
+				"fileType": "addOrReplaceAudio",
+				"relativePath": "audioFiles.json"
+			},
+			{
+				"relativePath": "./localization/en-US.json",
+				"fileType": "addOrOverrideLocalization"
+			}
+		],
+		"marksgamemodded": true,
+		"name" : "Industrial Expansion",
+		"version" : "0.1.0"
+	}
+]

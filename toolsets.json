@@ -1,0 +1,82 @@
+[
+	{
+		"key": "notools",
+		"shown": [
+			"notools"
+		],
+		"usable": [
+			"notools"
+		],
+		"useMultiplier": 0
+	},
+	{
+		"key": "needspower",
+		"shown": [
+			"batteryfull"
+		],
+		"usable": [
+			"batteryfull"
+		],
+		"useMultiplier": 0
+	},
+	{
+		"key": "ironmax",
+		"shown": [
+			"irontools",
+			"coppertools",
+			"stonetools",
+			"notools"
+		],
+		"usable": [
+			"irontools",
+			"coppertools",
+			"stonetools",
+			"notools"
+		],
+		"useMultiplier": 1.0
+	},
+	{
+		"key": "advmining",
+		"shown": [
+			"diamonddrill",
+			"titandrill",
+			"steeldrill"
+		],
+		"usable": [
+			"diamonddrill",
+			"titandrill",
+			"steeldrill"
+		],
+		"useMultiplier": 1.0
+	},
+	{
+		"key": "glasses",
+		"shown": [
+			"industrialkit",
+			"eyeglasses",
+			"medievalkit",
+			"notools"
+		],
+		"usable": [
+			"industrialkit",
+			"eyeglasses",
+			"medievalkit",
+			"notools"
+		],
+		"useMultiplier": 1.0
+	},
+	{
+		"key": "machinetools",
+		"shown": [
+			"precisionmachinery",
+			"sophisticatedmachinery",
+			"machinetools"
+		],
+		"usable": [
+			"precisionmachinery",
+			"sophisticatedmachinery",
+			"machinetools"
+		],
+		"useMultiplier": 1.0
+	}
+]

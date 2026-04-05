@@ -1,0 +1,83 @@
+[
+	{
+		"cooldown": 90.0,
+		"defaultLimit": 10,
+		"defaultPriority": 100,
+		"name": "pipliz.metallathe.steeldrill",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "complexmachine"
+			},
+			{	
+				"amount": 10,
+				"type": "steelingot"
+			},
+			{	
+				"amount": 5,
+				"type": "brassingot"
+			},
+			{	
+				"amount": 5,
+				"type": "bronzeingot"
+			},
+			{
+				"amount": 5,
+				"type": "metalgear"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"type": "steeldrill"
+			}
+		],
+		"sortWeight": 256662
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 25,
+		"name": "pipliz.metallathe.metalgear",
+		"requires": [
+			{
+				"amount": 1,
+				"type": "steelingot"
+			}
+		],
+		"requiresScience": "pipliz.lathe",
+		"results": [
+			{
+				"amount": 2,
+				"type": "metalgear"
+			}
+		],
+		"sortWeight": 720372
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 25,
+		"name": "pipliz.metallathe.complexmachine",
+		"requires": [
+			{
+				"amount": 5,
+				"type": "steelparts"
+			},
+			{
+				"amount": 10,
+				"type": "brassparts"
+			},
+			{
+				"amount": 15,
+				"type": "goldingot"
+			}
+		],
+		"requiresScience": "loirelab.advsmith",
+		"results": [
+			{
+				"amount": 3,
+				"type": "complexmachine"
+			}
+		],
+		"sortWeight": 720399
+	}
+]

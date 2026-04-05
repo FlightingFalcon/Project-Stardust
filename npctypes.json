@@ -1,0 +1,48 @@
+[
+	/*
+		for worker npcTypes:
+		- keyName -> unique ID used when referencing this in jobs and such
+		- movementSpeed -> speed of the npc while holding this job
+		- maskColor0, maskColor1 -> npc mask color, currently only maskColor1 is used (?)
+	*/
+	{
+		"keyName": "loirelab.arcfurnace",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.boileroperator",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.advsmelter",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.advminer",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.advsmith",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.beneficiationoperator",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.sawmill",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.handcranker",
+		"mesh": "./meshes/coppersmith.glb",
+			"npcType": "worker"
+	}
+]

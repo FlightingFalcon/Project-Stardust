@@ -1,0 +1,29 @@
+[
+	{
+		"cooldown": 180.0,
+		"defaultLimit": 10,
+		"name": "loirelab.boiler.batterycharge",
+		"requires": [
+			{
+				"amount": 8,
+				"type": "potwater"
+			},
+			{
+				"amount": 12,
+				"type": "cokes"
+			},
+			{
+				"amount": 3,
+			    "type": "batteryempty"
+			}
+		],
+		"requiresScience": "loirelab.steampower",
+		"results": [
+			{
+				"amount": 3,
+				"type": "batteryfull"
+			}
+		],
+		"sortWeight": 173
+	}
+]
