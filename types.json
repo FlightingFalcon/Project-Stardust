@@ -28,7 +28,7 @@
 			"loirelab_industry",
 			"consumables"
 		],
-		"icon": "./icons/copperingot.png",
+		"icon": "./icons/fuseitem.png",
 		"isPlaceable": false
 	},
 	"zincrefined": {
@@ -50,8 +50,8 @@
 	"batteryfull": {
 		"attachBehaviour": [
 			{
-				"craftingspeed": 16.00,
-				"durability": 10000.0,
+				"craftingspeed": 2.00,
+				"durability": 1500.0,
 				"id": "tool",
 				"scienceHint": "loirelab.advfurnace"
 			}
@@ -61,7 +61,7 @@
 			"consumables",
 			"tool"
 		],
-		"icon": "./icons/vialmineraloil.png",
+		"icon": "./icons/batterycharged.png",
 		"isPlaceable": false
 	},
 	"batteryempty": {
@@ -69,7 +69,15 @@
 			"loirelab_industry",
 			"consumables"
 		],
-		"icon": "./icons/vialempty.png",
+		"icon": "./icons/batteryempty.png",
+		"isPlaceable": false
+	},
+	"batterycasing": {
+		"categories": [
+			"loirelab_industry",
+			"consumables"
+		],
+		"icon": "./icons/batterycasing.png",
 		"isPlaceable": false
 	},
 	"tinrefined": {

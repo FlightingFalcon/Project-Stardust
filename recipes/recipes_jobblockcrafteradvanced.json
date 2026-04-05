@@ -43,7 +43,7 @@
 				"type": "metalgear"
 			},
 			{
-				"amount": 12,
+				"amount": 15,
 				"type": "copperwire"
 			}
 		],
@@ -65,7 +65,7 @@
 				"type": "steelingot"
 			},
 			{
-				"amount": 6,
+				"amount": 8,
 				"type": "steelparts"
 			},
 			{
@@ -73,7 +73,7 @@
 				"type": "metalgear"
 			},
 			{
-				"amount": 24,
+				"amount": 38,
 				"type": "copperwire"
 			}
 		],

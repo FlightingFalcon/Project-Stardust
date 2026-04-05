@@ -43,6 +43,11 @@
 	{
 		"keyName": "loirelab.handcranker",
 		"mesh": "./meshes/coppersmith.glb",
-			"npcType": "worker"
+		"npcType": "worker"
+	},
+	{
+		"keyName": "loirelab.advanvilsmith",
+		"mesh": "./meshes/coppersmith.glb",
+		"npcType": "worker"
 	}
 ]

@@ -22,12 +22,14 @@
 	{
 		"key": "ironmax",
 		"shown": [
+			"diamonddrill",
 			"irontools",
 			"coppertools",
 			"stonetools",
 			"notools"
 		],
 		"usable": [
+			"diamonddrill",
 			"irontools",
 			"coppertools",
 			"stonetools",

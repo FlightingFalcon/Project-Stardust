@@ -35,7 +35,7 @@
 		"sortWeight": 639327
 	},
 	{
-		"cooldown": 60.0,
+		"cooldown": 70.0,
 		"defaultLimit": 10,
 		"defaultPriority": 100,
 		"name": "loirelab.advsmith.machinetools",
@@ -103,7 +103,7 @@
 		"sortWeight": 256650
 	},
 	{
-		"cooldown": 90.0,
+		"cooldown": 120.0,
 		"defaultLimit": 10,
 		"defaultPriority": 100,
 		"name": "loirelab.advsmith.precisionmachinery",

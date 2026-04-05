@@ -156,6 +156,14 @@
 				"npcType": "pipliz.engineer"
 			},
 			{
+				"relativePath": "./recipes/recipes_refinedironanvil.json",
+				"fileType": "addOrReplaceNPCRecipes",
+				"limitsUIMapping": [
+					"refinedironanvil"
+				],
+				"npcType": "loirelab.advanvilsmith"
+			},
+			{
 				"fileType": "generateBlocks",
 				"relativePath": "generateblocks.json"
 			},

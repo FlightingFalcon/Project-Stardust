@@ -9,15 +9,15 @@
 				"amount": 1,
 				"type": "complexmachine"
 			},
-			{	
+			{
 				"amount": 10,
 				"type": "steelingot"
 			},
-			{	
+			{
 				"amount": 5,
 				"type": "brassingot"
 			},
-			{	
+			{
 				"amount": 5,
 				"type": "bronzeingot"
 			},
@@ -79,5 +79,50 @@
 			}
 		],
 		"sortWeight": 720399
+	},
+	{
+		"cooldown": 300.0,
+		"defaultLimit": 15,
+		"name": "pipliz.metallathe.batterycasing",
+		"requires": [
+			{
+				"amount": 7,
+				"type": "steelingot"
+			},
+			{
+				"amount": 3,
+				"type": "brassingot"
+			},
+			{
+				"amount": 6,
+				"type": "steelparts"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"type": "batterycasing"
+			}
+		],
+		"sortWeight": 793591
+	},
+	{
+		"cooldown": 30.0,
+		"defaultLimit": 35,
+		"name": "pipliz.metallathe.copperwire",
+		"requires": [
+			{
+				"amount": 2,
+				"type": "copperingot"
+			}
+		],
+		"requiresScience": "loirelab.advminer",
+		"results": [
+			{
+				"amount":  4,
+				"type": "copperwire"
+			}
+		],
+		"sortWeight": 780294
 	}
 ]
