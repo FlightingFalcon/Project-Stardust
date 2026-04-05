@@ -53,7 +53,7 @@
 				"craftingspeed": 2.00,
 				"durability": 1500.0,
 				"id": "tool",
-				"scienceHint": "loirelab.advfurnace"
+				"scienceHint": "loirelab.electricity"
 			}
 		],
 		"categories": [

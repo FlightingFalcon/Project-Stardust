@@ -47,7 +47,7 @@
 				"type": "copperwire"
 			}
 		],
-		"requiresScience": "loirelab.steampower",
+		"requiresScience": "loirelab.electricity",
 		"results": [
 			{
 				"type": "handcrank"
@@ -69,11 +69,11 @@
 				"type": "steelparts"
 			},
 			{
-				"amount": 6,
+				"amount": 9,
 				"type": "metalgear"
 			},
 			{
-				"amount": 38,
+				"amount": 18,
 				"type": "copperwire"
 			}
 		],

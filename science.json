@@ -152,8 +152,40 @@
 	{
 		"colonyPointRequirement": 30000,
 		"dependencies": [
-			"loirelab.advsmelter",
+			"pipliz.poison",
 			"pipliz.lathe"
+		],
+		"icon": "./icons/lightning.png",
+		"itemRequirements": [
+			{
+				"amount": 3,
+				"type": "metallathe"
+			},
+			{
+				"amount": 10,
+				"type": "tinconcentrate"
+			},
+			{
+				"amount": 500,
+				"type": "carddata"
+			},
+			{
+				"amount": 10,
+				"type": "chestresource"
+			},
+			{
+				"amount": 10,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.electricity",
+		"sortWeight": 639320
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.electricity",
+			"pipliz.blastfurnace"
 		],
 		"icon": "./icons/blastfurnace.png",
 		"itemRequirements": [
