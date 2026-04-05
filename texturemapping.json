@@ -1,0 +1,6 @@
+{
+	"advfurnace": {
+		"albedo": "./icons/albedo/advfurnace.png",
+		"emissive": "./icons/emissiveMaskAlpha/advfurnace.png"
+	}
+}

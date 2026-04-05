@@ -1,0 +1,313 @@
+[
+	{
+		"colonyPointRequirement": 10000,
+		"dependencies": [
+			"pipliz.blastfurnace",
+			"pipliz.tabulator"
+		],
+		"icon": "./icons/advsmelter.png",
+		"itemRequirements": [
+			{
+				"amount": 10,
+				"type": "steelingot"
+			},
+			{
+				"amount": 50,
+				"type": "carddata"
+			},
+			{
+				"amount": 10,
+				"type": "chestresource"
+			},
+			{
+				"amount": 5,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.advsmelter",
+		"sortWeight": 639280
+	},
+	{
+		"colonyPointRequirement": 50000,
+		"dependencies": [
+			"loirelab.advsmith"
+		],
+		"icon": "./icons/sawmill.png",
+		"itemRequirements": [
+			{
+				"amount": 500,
+				"type": "planks"
+			},
+			{
+				"amount": 150,
+				"type": "carddata"
+			},
+			{
+				"amount": 20,
+				"type": "chestresource"
+			},
+			{
+				"amount": 5,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.sawmill",
+		"sortWeight": 639290
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.advsmelter"
+		],
+		"icon": "./icons/beneficiationtank.png",
+		"itemRequirements": [
+			{
+				"amount": 10,
+				"type": "vialsulphuricacid"
+			},
+			{
+				"amount": 10,
+				"type": "vialsulphuricacid"
+			},
+			{
+				"amount": 10,
+				"type": "copperconcentrate"
+			},
+			{
+				"amount": 300,
+				"type": "carddata"
+			},
+			{
+				"amount": 20,
+				"type": "chestluxury"
+			},
+			{
+				"amount": 20,
+				"type": "chestresource"
+			}
+		],
+		"key": "loirelab.benefication",
+		"sortWeight": 639300
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.advsmelter",
+			"pipliz.lathe"
+		],
+		"icon": "./icons/rockdrill.png",
+		"itemRequirements": [
+			{
+				"amount": 5,
+				"type": "minerjob"
+			},
+			{
+				"amount": 10,
+				"type": "leadconcentrate"
+			},
+			{
+				"amount": 500,
+				"type": "carddata"
+			},
+			{
+				"amount": 25,
+				"type": "chestresource"
+			},
+			{
+				"amount": 5,
+				"type": "chestluxury"
+			},
+			{
+				"amount": 5,
+				"type": "chestprestige"
+			}
+		],
+		"key": "loirelab.advminer",
+		"sortWeight": 639310
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.benefication",
+			"loirelab.advsmith"
+		],
+		"icon": "./icons/brick-pile.png",
+		"itemRequirements": [
+			{
+				"amount": 100,
+				"type": "steelingot"
+			},
+			{
+				"amount": 100,
+				"type": "chestresource"
+			},
+			{
+				"amount": 750,
+				"type": "carddata"
+			}
+		],
+		"key": "loirelab.advconstruction",
+		"sortWeight": 639325
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.advsmelter",
+			"pipliz.lathe"
+		],
+		"icon": "./icons/blastfurnace.png",
+		"itemRequirements": [
+			{
+				"amount": 3,
+				"type": "metallathe"
+			},
+			{
+				"amount": 10,
+				"type": "tinconcentrate"
+			},
+			{
+				"amount": 500,
+				"type": "carddata"
+			},
+			{
+				"amount": 10,
+				"type": "chestresource"
+			},
+			{
+				"amount": 10,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.steampower",
+		"sortWeight": 639320
+	},
+	{
+		"colonyPointRequirement": 30000,
+		"dependencies": [
+			"loirelab.advsmelter",
+			"pipliz.lathe"
+		],
+		"icon": "./icons/advsmith.png",
+		"itemRequirements": [
+			{
+				"amount": 3,
+				"type": "metallathe"
+			},
+			{
+				"amount": 10,
+				"type": "tinconcentrate"
+			},
+			{
+				"amount": 500,
+				"type": "carddata"
+			},
+			{
+				"amount": 10,
+				"type": "chestresource"
+			},
+			{
+				"amount": 10,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.advsmith",
+		"sortWeight": 639320
+	},
+	{
+		"colonyPointRequirement": 75000,
+		"dependencies": [
+			"loirelab.advconstruction"
+		],
+		"icon": "./icons/titan.png",
+		"itemRequirements": [
+			{
+				"amount": 10,
+				"type": "ilmenite"
+			},
+			{
+				"amount": 1000,
+				"type": "carddata"
+			},
+			{
+				"amount": 25,
+				"type": "chestprestige"
+			},
+			{
+				"amount": 25,
+				"type": "chestbuilding"
+			},
+			{
+				"amount": 25,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.titancoating",
+		"sortWeight": 639330
+	},
+	{
+		"colonyPointRequirement": 85000,
+		"dependencies": [
+			"loirelab.titancoating"
+		],
+		"icon": "./icons/complexrefining.png",
+		"itemRequirements": [
+			{
+				"amount": 10,
+				"type": "titan"
+			},
+			{
+				"amount": 10,
+				"type": "diamond"
+			},
+			{
+				"amount": 1500,
+				"type": "carddata"
+			},
+			{
+				"amount": 25,
+				"type": "chestprestige"
+			},
+			{
+				"amount": 25,
+				"type": "chestbuilding"
+			},
+			{
+				"amount": 10000,
+				"type": "stonerubble"
+			}
+		],
+		"key": "loirelab.complexrefining",
+		"sortWeight": 639335
+	},
+	{
+		"colonyPointRequirement": 100000,
+		"dependencies": [
+			"loirelab.titancoating"
+		],
+		"icon": "./icons/diamond.png",
+		"itemRequirements": [
+			{
+				"amount": 100,
+				"type": "diamond"
+			},
+			{
+				"amount": 5000,
+				"type": "carddata"
+			},
+			{
+				"amount": 50,
+				"type": "chestprestige"
+			},
+			{
+				"amount": 50,
+				"type": "chestbuilding"
+			},
+			{
+				"amount": 50,
+				"type": "chestluxury"
+			}
+		],
+		"key": "loirelab.diamondcoating",
+		"sortWeight": 639340
+	}
+]

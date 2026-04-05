@@ -1,0 +1,66 @@
+[
+	{
+		"clipCollectionName": "rockdrill",
+		"fileList": [
+			{
+				"audioGroup": "Effects",
+				"path": "./audio/rockdrill_1.ogg"
+			},
+			{
+				"audioGroup": "Effects",
+				"path": "./audio/rockdrill_2.ogg"
+			},
+			{
+				"audioGroup": "Effects",
+				"path": "./audio/rockdrill_3.ogg"
+			},
+			{
+				"audioGroup": "Effects",
+				"path": "./audio/rockdrill_4.ogg"
+			}
+		],
+		"range": 25
+	},
+		{
+		"clipCollectionName": "sawmill",
+		"fileList": [
+			{
+				"audioGroup": "Effects",
+				"volume": 0.3,
+				"path": "./audio/sawmill.ogg"
+			}
+		],
+		"range": 12
+	},
+		{
+		"clipCollectionName": "bubbles",
+		"fileList": [
+			{
+				"audioGroup": "Effects",
+				"path": "./audio/bubbles.ogg"
+			}
+		],
+		"range": 5
+	},
+			{
+		"clipCollectionName": "electrical",
+		"fileList": [
+			{
+				"audioGroup": "Effects",
+				"volume": 0.5,
+				"path": "./audio/electrical_1.ogg"
+			},
+			{
+				"audioGroup": "Effects",
+				"volume": 1,
+				"path": "./audio/electrical_2.ogg"
+			},
+			{
+				"audioGroup": "Effects",
+				"volume": 0.5,
+				"path": "./audio/electrical_3.ogg"
+			}
+		],
+		"range": 8
+	}
+]

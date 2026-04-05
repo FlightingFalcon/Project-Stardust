@@ -1,0 +1,541 @@
+[
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"islit": false,
+					"npcType": "loirelab.handcranker",
+					"onCraftedAudio": "electrical",
+					"timeBetweenHauls": 30,
+					"toolset": "notools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						1.0,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"destructionTime": 800,
+			"icon": "./icons/grindstone.png",
+			"isSolid": false,
+			"lightingTransparency": 100,
+			"mesh": "./meshes/grindstone.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "handcrank"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"islit": true,
+					"npcType": "loirelab.arcfurnace",
+					"onCraftedAudio": "electrical",
+					"timeBetweenHauls": 30,
+					"toolset": "needspower"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						1.0,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"destructionTime": 800,
+			"icon": "./icons/advsmelter.png",
+			"isSolid": false,
+			"lightingTransparency": 100,
+			"mesh": "./meshes/advfurnance.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"litTypeCustomData": {
+			"torches": {
+				"merged": {
+					"color": "#FFFFFF",
+					"injectionPoints": [
+						{
+							"offsetX": 1,
+							"startValue": 7
+						},
+						{
+							"offsetY": 1,
+							"startValue": 7
+						},
+						{
+							"injectEvenIfOpaque": true,
+							"preventSpread": true,
+							"startValue": 8
+						}
+					],
+					"intensity": 6.5,
+					"range": 8,
+					"volume": 0.1
+				}
+			}
+		},
+		"sideAllLit": "advfurnace",
+		"typeName": "arcfurnace"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"islit": true,
+					"npcType": "loirelab.boileroperator",
+					"onCraftedAudio": "electrical",
+					"timeBetweenHauls": 30,
+					"toolset": "machinetools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						1.0,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"destructionTime": 800,
+			"icon": "./icons/blastfurnace.png",
+			"isSolid": false,
+			"lightingTransparency": 100,
+			"mesh": "./meshes/boiler.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"litTypeCustomData": {
+			"torches": {
+				"merged": {
+					"color": "#FFFFFF",
+					"injectionPoints": [
+						{
+							"offsetX": 1,
+							"startValue": 7
+						},
+						{
+							"offsetY": 1,
+							"startValue": 7
+						},
+						{
+							"injectEvenIfOpaque": true,
+							"preventSpread": true,
+							"startValue": 8
+						}
+					],
+					"intensity": 6.5,
+					"range": 8,
+					"volume": 0.1
+				}
+			}
+		},
+		"sideAllLit": "furnace",
+		"typeName": "boiler"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"islit": true,
+					"npcType": "loirelab.advsmelter",
+					"onCraftedAudio": "electrical",
+					"timeBetweenHauls": 30,
+					"toolset": "machinetools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						1.0,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"destructionTime": 800,
+			"icon": "./icons/advsmelter.png",
+			"isSolid": false,
+			"lightingTransparency": 100,
+			"mesh": "./meshes/advfurnance.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"litTypeCustomData": {
+			"torches": {
+				"merged": {
+					"color": "#FFFFFF",
+					"injectionPoints": [
+						{
+							"offsetX": 1,
+							"startValue": 7
+						},
+						{
+							"offsetY": 1,
+							"startValue": 7
+						},
+						{
+							"injectEvenIfOpaque": true,
+							"preventSpread": true,
+							"startValue": 8
+						}
+					],
+					"intensity": 6.5,
+					"range": 8,
+					"volume": 0.1
+				}
+			}
+		},
+		"sideAllLit": "advfurnace",
+		"typeName": "advsmelter"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"npcType": "loirelab.advsmith",
+					"timeBetweenHauls": 30,
+					"onCraftedAudio": "engineer",
+					"toolset": "machinetools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"icon": "./icons/advsmith.png",
+			"isSolid": false,
+			"lightingTransparency": 185,
+			"mesh": "./meshes/advsmith.ply",
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "advsmith"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"npcType": "loirelab.beneficiationoperator",
+					"timeBetweenHauls": 40,
+					"onCraftedAudio": "bubbles",
+					"toolset": "machinetools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"icon": "./icons/beneficiationtank.png",
+			"isSolid": false,
+			"lightingTransparency": 60,
+			"mesh": "./meshes/beneficiationtank.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "beneficiationtank"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"npcType": "loirelab.sawmill",
+					"timeBetweenHauls": 40,
+					"onCraftedAudio": "sawmill",
+					"toolset": "machinetools"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"icon": "./icons/sawmill.png",
+			"isSolid": false,
+			"lightingTransparency": 60,
+			"mesh": "./meshes/sawmill.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "sawmill"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "minerjob",
+					"onMineAudio": "rockdrill",
+					"npcType": "loirelab.advminer",
+					"toolSet": "advmining",
+					"timeBetweenHauls": 360
+				},
+				"client_requireminable"
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						0.15,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"icon": "./icons/rockdrill.png",
+			"isSolid": false,
+			"lightingTransparency": 220,
+			"mesh": "./meshes/advminer.ply",
+			"meshRotationEuler": {
+				"x": 0,
+				"y": 270,
+				"z": 0
+			},
+			"needsBase": true,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "advminer"
+	},
+	{
+		"baseType": {
+			"attachBehaviour": [
+				{
+					"id": "pointstorage",
+					"points": 10000,
+					"threat": 50
+				}
+			],
+			"customData": {
+				"colors": [
+					"#ff0000->#FFFFFF",
+					"#00ff00->#FFFFFF",
+					"#0000ff->#FFFFFF"
+				]
+			},
+			"canBuildUpon": true,
+			"categories": [
+				"loirelab_industry",
+				"essential",
+				"pointstorage"
+			],
+			"icon": "./icons/strongbox.png",
+			"lightingTransparency": 30,
+			"mesh": "./meshes/steellockbox.ply",
+			"needsBase": true,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "titanlockbox"
+	},
+	{
+		"baseType": {
+			"attachmentProviders": [
+				{
+					"min": [ -0.0807, 0.414, -0.137 ],
+					"max": [ 0.074, 0.5, 0.413 ]
+				}
+			],
+			"attachBehaviour": [
+				{
+					"id": "craftingblock",
+					"npcType": "loirelab.advanvilsmith",
+					"onCraftedAudio": "anvil",
+					"timeBetweenHauls": 30,
+					"toolset": "ironmax"
+				}
+			],
+			"categories": [
+				"loirelab_industry",
+				"job"
+			],
+			"colliders": [
+				{
+					"max": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						-0.5,
+						-0.5,
+						-0.5
+					]
+				}
+			],
+			"icon": "./icons/bronzeanvil.png",
+			"isSolid": false,
+			"lightingTransparency": 185,
+			"mesh": "./meshes/bronzeanvil.ply",
+			"needsBase": true,
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"pathingImpact": "AsUntouchableSolid",
+			"sideall": "neutral"
+		},
+		"generateType": "rotateBlock",
+		"typeName": "refinedironanvil"
+	}
+]
